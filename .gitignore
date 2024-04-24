@@ -1,0 +1,55 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.Python
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+build/
+develop-eggs/
+dist/
+eggs/
+
+
+# Database files
+db.sqlite3
+
+# Static files (collectstatic)
+staticfiles/
+ 
+# Media files
+media/
+
+# Secret key configuration
+*.secret_key
+
+# Configuration files
+*.env
+
+# Log files
+*.log
+
+# Ignore environment-specific settings (e.g., development settings)
+*.settings
+
+# Ignore the virtual environment
+venv/
+ 
+# Ignore pipenv virtual environment
+.Pipfile
+.Pipfile.lock
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+*.swp
+*~
+
+# Ignore backup files
+*.bak
+
+# Local database storage
+data/db/
+
