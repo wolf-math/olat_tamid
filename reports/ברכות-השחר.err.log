@@ -16,18 +16,26 @@ Traceback (most recent call last):
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
 from IPython.display import Markdown
-from tanakh_reader import tanakh_reader
+from tanakh_reader import verse, chapter, verses
 
-text = f"""{tanakh_reader('writings', 'psalms', 5, 8)[1]} {tanakh_reader('writings', 'psalms', 55, 15)[1]} 
+text = f"""{verse('psalms', 5, 8)[1]} {verse('psalms', 55, 15)[1]}"""
 
-
+Markdown(text)
 
 ------------------
 
 
-[0;36m  Cell [0;32mIn[1], line 4[0;36m[0m
-[0;31m    text = f"""{tanakh_reader('writings', 'psalms', 5, 8)[1]} {tanakh_reader('writings', 'psalms', 55, 15)[1]}[0m
-[0m           ^[0m
-[0;31mSyntaxError[0m[0;31m:[0m incomplete input
+Traceback [0;36m(most recent call last)[0m:
+
+[0m  File [1;32m~/code/Olat_Tamid/venv/lib/python3.10/site-packages/IPython/core/interactiveshell.py:3577[0m in [1;35mrun_code[0m
+    exec(code_obj, self.user_global_ns, self.user_ns)[0m
+
+[0;36m  Cell [0;32mIn[1], line 2[0;36m
+[0;31m    from tanakh_reader import verse, chapter, verses[0;36m
+
+[0;36m  File [0;32m~/code/Olat_Tamid/Olat_Tamid/tanakh_reader.py:11[0;36m[0m
+[0;31m    return "Oops something went wrong"[0m
+[0m    ^[0m
+[0;31mIndentationError[0m[0;31m:[0m expected an indented block after 'if' statement on line 10
 
 
