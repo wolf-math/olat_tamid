@@ -4,9 +4,9 @@
 title: Siddur Olat Tamid
 author: Aaron Wolf
 logo: logo.png
+copyright: "2024"
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
+
 execute:
   execute_notebooks: force
 
@@ -20,13 +20,12 @@ bibtex_bibfiles:
   - references.bib
 
 # Information about where the book exists on the web
-# repository:
-#   url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-#   path_to_book: docs  # Optional path to your book, relative to the repository root
-#   branch: master  # Which branch of the repository should be used when creating links (optional)
+ # repository:
+ #   url: "https://github.com/wolf-math/olat_tamid"
+ #   path_to_book: "/_build"
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-# html:
-#   use_issues_button: true
-#   use_repository_button: true
+ # html:
+ #   use_issues_button: true
+ #   use_repository_button: true
