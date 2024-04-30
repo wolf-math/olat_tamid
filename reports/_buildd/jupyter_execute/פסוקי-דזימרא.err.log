@@ -17,25 +17,18 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 ------------------
 from IPython.display import Markdown
 from tanakh_reader import verse, chapter, verses
-
-text = f"""{verse('psalms', 5, 8)[1]} {verse('psalms', 55, 15)[1]}"""
-
-Markdown(text)
-
+from word_formatter import bold_first_word as bfw
+from shem_converter import double_yud as dy
 ------------------
 
 
-Traceback [0;36m(most recent call last)[0m:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 2[0m
+[1;32m      1[0m [38;5;28;01mfrom[39;00m [38;5;21;01mIPython[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdisplay[39;00m [38;5;28;01mimport[39;00m Markdown
+[0;32m----> 2[0m [38;5;28;01mfrom[39;00m [38;5;21;01mtanakh_reader[39;00m [38;5;28;01mimport[39;00m verse, chapter, verses
+[1;32m      3[0m [38;5;28;01mfrom[39;00m [38;5;21;01mword_formatter[39;00m [38;5;28;01mimport[39;00m bold_first_word [38;5;28;01mas[39;00m bfw
+[1;32m      4[0m [38;5;28;01mfrom[39;00m [38;5;21;01mshem_converter[39;00m [38;5;28;01mimport[39;00m double_yud [38;5;28;01mas[39;00m dy
 
-[0m  File [1;32m~/code/Olat_Tamid/venv/lib/python3.10/site-packages/IPython/core/interactiveshell.py:3577[0m in [1;35mrun_code[0m
-    exec(code_obj, self.user_global_ns, self.user_ns)[0m
-
-[0;36m  Cell [0;32mIn[1], line 2[0;36m
-[0;31m    from tanakh_reader import verse, chapter, verses[0;36m
-
-[0;36m  File [0;32m~/code/Olat_Tamid/Olat_Tamid/tanakh_reader.py:11[0;36m[0m
-[0;31m    return "Oops something went wrong"[0m
-[0m    ^[0m
-[0;31mIndentationError[0m[0;31m:[0m expected an indented block after 'if' statement on line 10
-
+[0;31mModuleNotFoundError[0m: No module named 'tanakh_reader'
 
