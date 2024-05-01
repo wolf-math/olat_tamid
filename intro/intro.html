@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro/intro';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="מנהג אשכנז" href="minhag_ashkenaz.html" />
+    <link rel="next" title="ברכות השחר" href="../%D7%91%D7%A8%D7%9B%D7%95%D7%AA-%D7%94%D7%A9%D7%97%D7%A8.html" />
     <link rel="prev" title="סידור עלת תמיד" href="../title.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -178,7 +178,7 @@
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">סידור עולת תמיד</a></li>
-<li class="toctree-l1"><a class="reference internal" href="minhag_ashkenaz.html">מנהג אשכנז</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../%D7%91%D7%A8%D7%9B%D7%95%D7%AA-%D7%94%D7%A9%D7%97%D7%A8.html">ברכות השחר</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../%D7%A4%D7%A1%D7%95%D7%A7%D7%99-%D7%93%D7%96%D7%99%D7%9E%D7%A8%D7%90.html">פסוקי דזימרא</a></li>
 </ul>
@@ -306,7 +306,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -322,6 +324,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">סידור עולת תמיד</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">מנהג אשכנז</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -336,8 +348,14 @@ document.write(`
 <p>Siddur Olat Tamid represents the second edition of my personal siddur, originally crafted using XaLaTeX and now beautifully presented through Jupyter Book. I created this siddur out of necessity, as I was unable to find a published siddur following the German rite that met my needs. My goal was to design a siddur that was minimal, functional, aesthetically pleasing, and accessible for others.</p>
 <p>The layout has been meticulously organized to ensure an attractive and clear presentation. This includes well-defined chapter and section headings and the strategic bolding of key phrases at the beginning of important paragraphs to guide the reader through the text seamlessly.</p>
 <p>In keeping with a minimalist approach, you will find succinct instructions rather than extensive commentary or detailed guidance on performing specific prayers and rituals. This design choice helps preserve the clean flow of both the page and the text.</p>
-<p>For those interested in deeper exploration of German Jewish traditions, excellent resources include Machon Moreshes Ashkenaz (<a class="reference external" href="http://www.moreshesashkenaz.org/">http://www.moreshesashkenaz.org/</a>), the K’hal Adas Yeshurun Jerusalem forums (<a class="reference external" href="http://www.kayj.net/en/forum/category/list">http://www.kayj.net/en/forum/category/list</a>), and the Nachalas Ashkenaz Facebook group.</p>
-<p>I am profoundly grateful to Rallis Wiesenthal, whose outstanding work, Tefiloh Sefas Yisroel, inspired the first version of my siddur. His contributions can be explored further at (<a class="reference external" href="http://opensiddur.org/compilations/siddurim/siddur-bnei-ashkenaz-a-german-rite-siddur-prepared-by-r-rallis-wiesenthal/">http://opensiddur.org/compilations/siddurim/siddur-bnei-ashkenaz-a-german-rite-siddur-prepared-by-r-rallis-wiesenthal/</a>)</p>
+<p>For those interested in deeper exploration of German Jewish traditions, excellent resources include <a class="reference external" href="http://www.moreshesashkenaz.org/">Machon Moreshes Ashkenaz</a>, the <a class="reference external" href="http://www.kayj.net/en/forum/category/list">K’hal Adas Yeshurun Jerusalem forums</a>, and the Nachalas Ashkenaz Facebook group.</p>
+<p>I am profoundly grateful to Rallis Wiesenthal, whose outstanding work, Tefiloh Sefas Yisroel, inspired the first version of my siddur. His contributions can be explored further at <a class="reference external" href="http://opensiddur.org/compilations/siddurim/siddur-bnei-ashkenaz-a-german-rite-siddur-prepared-by-r-rallis-wiesenthal/">The Open Siddur Project</a></p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="id2">
+<h1>מנהג אשכנז<a class="headerlink" href="#id2" title="Link to this heading">#</a></h1>
+<p>Minhag Ashkenaz is the Jewish tradition of Northern Europe. The Jewish communities in Germany are thought to have been founded in the 5th century. The Golden Age of Ashkenazic Jewery was during the High Middle Ages just prior to the Crusades. The Jewish communities of Europe were devastated during the Crusades, with entire cities of Jews murdered. Blood libels and other false accusations forced many Jews to move east to Poland. Minhag Ashkenaz primarily refers to the unaltered Northern European/German tradition.</p>
+<p>What differentiates Minhag Ashkenaz from the rest of European Jewry is primarily תפילה , tefilo (prayer). There are several differences here, but the most notable is the use of פיוטים , piyutim (poems) in certain sections. These Piyutim are said on special occasions such as holidays and days of special Torah readings. A great resource for Piyutim in Teflio is Machzor Shivchei Yeshurun by David J. Roth. Unfortunately my siddur does not contain many of these Piyutim, but indicates when some of them should be said.</p>
+<p>Just a sample of the differences of Minhag outside of the Nusach HaTefilo are: unmarried boys wear a Talis, washing Al Netilas Yedayim before saying Kiddush, the use of a Winpel during a Bris. Most of these minhagim appear in the Sefer Maharil by Rabbi Yaakov Moelin (c. 1365 - 1427) of Mainz. The most influential Modern progenitor of Minhag Ashkenaz is Rabbi Binyomin Hamburger.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -380,11 +398,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="minhag_ashkenaz.html"
+       href="../%D7%91%D7%A8%D7%9B%D7%95%D7%AA-%D7%94%D7%A9%D7%97%D7%A8.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">מנהג אשכנז</p>
+        <p class="prev-next-title">ברכות השחר</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -395,7 +413,22 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">סידור עולת תמיד</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">מנהג אשכנז</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
