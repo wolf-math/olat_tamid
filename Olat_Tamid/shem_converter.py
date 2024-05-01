@@ -53,7 +53,7 @@ def shem_converter(word):
 
 ## Creates new paragraph with double-yud in place of Shem Havaya
 
-def con(paragraph):
+def double_yud(paragraph):
     paragraph = str.replace(paragraph, '־', ' ־ ')
     par_list = paragraph.split()
     for word in par_list:

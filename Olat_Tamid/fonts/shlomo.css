@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'shlomo';
+    src: url('Shlomo.ttf') format('truetype');
+}
+
+p {
+    font-family: 'shlomo', sans-serif;
+}

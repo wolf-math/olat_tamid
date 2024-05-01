@@ -19,6 +19,9 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
+sphinx:
+    extra_css: ["fonts/shlomo.css"]
+
 # Information about where the book exists on the web
  # repository:
  #   url: "https://github.com/wolf-math/olat_tamid"
