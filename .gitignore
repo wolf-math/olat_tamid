@@ -6,7 +6,7 @@ __pycache__/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-build/
+*/_build/
 develop-eggs/
 dist/
 eggs/
@@ -52,4 +52,5 @@ venv/
 
 # Local database storage
 data/db/
+
 

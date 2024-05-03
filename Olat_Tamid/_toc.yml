@@ -3,9 +3,12 @@
 
 format: jb-book
 root: title
-chapters:
-- file: intro/intro.md
-# - file: intro/minhag_ashkenaz.md
-- file: shacharit/ברכות-השחר.ipynb
-- file: shacharit/פסוקי-דזימרא.ipynb
-- file: shacharit/קריאת-שמע-וברכותיה.ipynb
+parts:
+  - caption: Introduction
+    chapters:
+      - file: intro/intro.md
+  - caption: שחרית
+    chapters:
+      - file: shacharit/ברכות-השחר.ipynb
+      - file: shacharit/פסוקי-דזימרא.ipynb
+      - file: shacharit/קריאת-שמע-וברכותיה.ipynb

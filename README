@@ -1,0 +1,33 @@
+# About
+
+Siddur Olat Tamid represents the second edition of my personal siddur, originally crafted using XaLaTeX and now beautifully presented through Jupyter Book. I created this siddur out of necessity, as I was unable to find a published siddur following the German rite that met my needs. My goal was to design a siddur that was minimal, functional, aesthetically pleasing, and accessible for others.
+
+Siddur Olat Tamid is an open source project. It is not only welcome, but encouraged to take part in the development of this work. This could mean creating [issues](https://github.com/wolf-math/olat_tamid/issues) if you feel there is a bug or a missing feature, or cloning the project and submitting pull requests. I'm more than happy to collaborate on this project to make it a community project.
+
+This project has been a many years long journey. The development of the original XeLaTeX was tedious and prone to bugs. In this Jupyter Book version I've taken the DRY (**D**on't **R**epeat **Y**ourself) approach, especially with Tanakh, to minimize the possibility of bugs errors. Due to the semi-repeative nature of the tefilot, I was researching ways to move towards a framework that allowed a ReactJS-like component structure. The added benefit was being able to easily deploy my progress with GitHub pages as a book with minimal configuration. 
+
+
+# Getting Started
+
+1. Clone the project
+2. Install virtual environment
+
+```
+python3 -m venv venv
+```
+
+3. Activate the virtual environment
+
+```
+source venv/bin/activate
+```
+
+4. Install the dependencies
+
+```
+pip3 install -r requirements.txt
+```
+
+5. Learn to use Jupyter Book and get coding!
+
+[Jupyer Book](https://jupyterbook.org/en/stable/intro.html)
