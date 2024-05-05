@@ -12,3 +12,4 @@ parts:
       - file: shacharit/ברכות-השחר.ipynb
       - file: shacharit/פסוקי-דזימרא.ipynb
       - file: shacharit/קריאת-שמע-וברכותיה.ipynb
+      - file: components/weekday_amida.ipynb
